@@ -1,0 +1,401 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 65px;
+    background:#171717;
+    position: fixed;
+    top: 0;
+    padding-left: 50px;
+}
+.logo-section{
+    width: 6%;
+    height: 60px;
+    float: left;
+}
+.logo{
+    margin-top: 7px;
+        
+}
+.navbar{
+    padding-top: 25px;
+    width: 60%;
+    height: 40px;
+    float: left;
+}
+.Navtext{
+    margin: 25px;
+    text-decoration: none;
+    font-family: FFDINforPuma,-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    color: white;
+}
+/* SEARCH BAR */
+.searchbox{
+    margin-top: 6px;
+    padding-left: 115px;
+    width: 14%;
+    border: 0.5px solid rgba(255,255,255,.2);
+    float: left;
+    margin-left: 96px;
+    
+    
+}
+.searchbtn{
+    position: relative;
+    padding-left: 6px;
+    padding-right: 2px;
+    top: 17px;
+    right: 112px;
+    color: white;
+    
+}
+
+.searchbtn i {
+    font-size: 18px;
+}
+input{
+    outline: none;
+    margin-left: 5px;
+  width: 160px;
+  height: 29px;
+  box-shadow: none;
+  position: relative;
+  top: -7px;
+  right:91px;
+  border: none;
+  color: grey;
+  background:#171717;
+  float: left;
+      
+}
+
+/* ICONS */
+.icons{
+    padding-top: 20px;
+    width: 13%;
+    
+    padding-left: 25px;
+    
+    float: left;
+}
+.hearticon{
+    color: white;
+    padding: 10px; 
+    
+}
+
+.hearticon i{
+    color: white;
+}
+.iconspace{
+    margin: 11px;
+}
+/* ///////////////////////////////////////////////////////////////////////// */
+
+
+.center{
+    width: 100%;
+    overflow: hidden; 
+    height: 500px;; 
+    background-image: url(https://images.puma.com/image/upload/f_auto,fl_lossy,q_60,w_1440/regional/%7Eregional%7EIND%7Eothers%7EKOP%7EJAN+2022%7ESale-Desktop-New-Year.gif/fmt/gif/fmt/gif%22%20data-src=%22https://images.puma.com/image/upload/f_auto,fl_lossy,q_60,w_1440/regional/%7Eregional%7EIND%7Eothers%7EKOP%7EJAN+2022%7ESale-Desktop-New-Year.gif/fmt/gif/fmt/gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.texts{
+    position: relative;
+    top: 134px; 
+    font-size: 27px;
+    /* font-family: FFDINforPuma,-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif; */
+    font-family: "Gill Sans", sans-serif;
+}
+.text2{
+    font-size: 40px;
+    position: relative;
+    bottom: 4px;
+}
+.text3{
+    font-size: 10px;
+    position: relative;
+    bottom: -8px;
+}
+.Buttons{
+    position: relative;
+    top: 164px;
+    color: black;
+}
+button{
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.btn1{
+ width: 100px;   
+ height: 40px;
+ cursor: pointer;
+}
+.btn2{
+    width: 100px;
+    height: 40px;
+}
+.btn3{
+    width: 100px;
+    height: 40px;
+    
+}
+.btn1:hover{
+    color: gray;
+}
+.btn2:hover{
+    color: gray;
+}
+.btn3:hover{
+    color: gray;
+}
+.secondcenter{
+    margin-top: 18px;
+    height: 500px;
+    width: 100%;
+    background-image: url(https://images.puma.com/image/upload/f_auto,fl_lossy,q_60,w_1440/regional/%7Eregional%7EIND%7Eothers%7EKOP%7EJAN+2022%7EBestsellers-desktop.gif/fmt/gif/fmt/gif);
+    background-image: no-repeat;
+    padding-left:30px ;
+    padding-top: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.text2p{
+    font-size: 18px;
+    padding-left: 134px;
+    position: relative;
+    bottom: 5px;
+}
+
+.SecondButtons{
+    position: relative;
+    top: 155px;
+    left: 92px;
+}
+
+
+
+/* /////////Third Section ///////////////////////*/
+
+.ThirdSection{
+    margin-top: 18px;
+   height: 500px;
+   width: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url(https://images.puma.com/image/upload/q_auto,f_auto,w_1440/regional/%7Eregional%7EIND%7Eothers%7EKOP%7EJAN+2022%7ELoungewear-desktop-22-v.jpg/fmt/jpg/fmt/png);
+}
+
+.texts3{
+    font-size: 35px;
+    font-family: FFDINforPuma,-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    position: relative;
+    left: 1070px;
+    top: 135px;
+
+}
+
+.text3p{
+    font-size: 23px;
+    padding-left: 0px;
+    position: relative;
+    bottom: -13px;
+}
+
+.ThirdButtons{
+    position: relative;
+    left: 1270px;
+    top: 156px;
+}
+
+.btntext{
+    font-style: italic;
+    font-family: cursive;
+
+}
+
+/* //////////////////4TH SECTION /////////////////*/
+
+.fourthsection{
+    width: 100%;
+    height: 135px;
+    padding-left: 25%;
+}
+.roundimages{
+    
+    border: 3px solid white;
+}
+.roundimages img{
+width: 120px;
+padding: 4px;    
+border: 3px solid red;
+border-radius: 50% !important;
+background-color: #fff;
+    
+}
+
+
+.fifth-section{
+    height: 500px;
+    width: 100%;
+    background-image: url(https://images.puma.com/image/upload/q_auto,f_auto,w_1440/regional/%7Eregional%7EIND%7Eothers%7EKOP%7EDEC+2021%7EMayze-Glow_Desktop_1440x500_1.jpg/fmt/jpg/fmt/png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.text5th1{
+    position: relative;
+    top: 156px;
+    left: 168px;
+    font-size: 50px;
+
+
+}
+.text5th2{
+    position: relative;
+    top: 165px;
+    left: 282px;
+    font-size: 46px;
+}
+.text5th3{
+    position: relative;
+    top: 170px;
+    left: 247px;
+    font-size: 20px;
+}
+.fifthbtn{
+    position: relative;
+    top: 180px;
+    left: 301px;
+    width: 128px;
+    height: 45px;
+}
+
+.sixthsection{
+     width: 100%;
+     height: 500px;
+
+}
+.sixthsection h1{
+    text-align: center;
+}
+.cards{
+    padding-left: 10px;
+}
+.card{
+    width: 24%;
+    float: left;
+    margin: 5px;
+}
+.card p{
+    position: relative;
+    left: 317px;
+    bottom: 44px;
+    color: red;
+}
+.card del{
+    color: grey;
+}
+/* Footer */
+/* ////////////////////////////////////////////////////////////////////////////
+..////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////// */
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color:#181818;
+    
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 100px;
+    padding-left:40px;
+}
+.first h2{
+
+    border-bottom: 2px solid white ;
+    padding-bottom: 12px;
+    color: white;
+    font-size: 19px;
+}
+
+.first ul li {
+    color: grey;
+    list-style: none;
+    padding: 10px 0;
+    margin-left:-30px ;
+}
+.firstsec{
+    display: flex;
+    
+}
+
+.secondlist{
+    margin-left: 95px;
+}
+
+/* second row */
+.second h2{
+    border-bottom: 2px solid white ;
+    padding-bottom: 12px;
+    color: white;
+    font-size: 19px;
+}
+.second ul li{
+    color: grey;
+    list-style: none;
+    padding: 10px 0;
+    margin-left:-30px ;
+}
+.second{
+    margin-left: 10px;
+}
+
+.thrid{
+    margin-left: 39px;
+}
+.thrid h2{
+    border-bottom: 2px solid white ;
+    padding-bottom: 12px;
+    color: white;
+    font-size: 19px;
+}
+.thrid ul{
+    list-style: none;
+    display: flex;
+    margin-top: 40px;
+    margin-left: -64px;
+    
+}
+.thrid i{
+    padding-left: 30px;
+    font-size: 24px;
+}
+.extra{
+    margin-top: 150px;
+    border-top: 2px solid grey;
+    display: flex;
+}
+.extra img{
+    margin-top: 20px;
+}
+.extra h5{
+    margin-top: 30px;
+    margin-left: 30px;
+    color: white;
+    border-bottom: white;
+}
